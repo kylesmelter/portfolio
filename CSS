@@ -28,6 +28,8 @@ h2 {
     text-align: center;
     margin-top: 15%;
     font-size: 3rem;
+    text-shadow: 0px 2px 4px rgba(140, 140, 140, 0.5);
+
 }
 
 .bio-photo {
@@ -40,9 +42,10 @@ h2 {
 
 .bio-text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.6;
     margin-top: 5%;
+    text-shadow: 0px 2px 4px rgba(140, 140, 140, 0.5);
 }
 
 .recent-work-container {
@@ -80,5 +83,21 @@ footer {
     margin-top: 0%;
     padding-top: 5%;
     color: white;
+}
 
+.footer-text {
+    font-size: 2rem;
+    color: white;
+    margin-top: 2.5%;
+    line-height: 1.6;
+    text-align: center;
+    
+}
+
+.form-name-email {
+    margin-top: 5%;
+}
+
+.form-message {
+    display: block;
 }
