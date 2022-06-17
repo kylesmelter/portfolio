@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/fb3988871f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="hero">
@@ -40,14 +41,23 @@
         <h2 class="footer-heading">Let's Work Together</h2>
         <p class="footer-text">If you like what you see, feel free to get in touch using the form below.
            I'm open to all freelance and job opportunities, talking about the latest
-           Magic: The Gathering set or Pokémon game, and any/all funny meme(s).
+           Magic: The Gathering set or Pokémon game, how Blink-182 is the greatest band of all time, and any/all funny meme(s).
         </p>
-        <section class="form-name-email">
-            <input type="text" name="name" id="name" placeholder="Name">
-            <input type="email" name="email" id="email" placeholder="Email">
+        <form name="contact" netlify>
+            <section class="form-name-email">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="email" id="email" placeholder="Email">
+            </section>
+            <textarea type="text" name="message" id="message" placeholder="Let's talk..." class="form-message"></textarea>
+            <section class="submit-button-container">
+                <a href="#" class="submit-button">Submit</a>
+            </section>
+        </form>
+        <section class="icon-container">
+            <a href='#' class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href='#' class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href='#' class="social-icon"><i class="fa-brands fa-github"></i></a>
         </section>
-        <textarea name="message" id="message" placeholder="Let's talk..." class="form-message"></textarea>
-        <input type="submit" value="Submit">
     </footer>
     <script href="main.js"></script>
 </body>
