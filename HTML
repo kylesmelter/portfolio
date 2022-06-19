@@ -10,7 +10,8 @@
 </head>
 <body>
     <section class="hero">
-        <h1>Hi, I'm Kyle, and I'm your next software engineer</h1>
+        <img src="natural-bridges.jpg" alt="natural bridges in Oregon" class='hero-image'/>
+        <h1 class="hero-text">Hi, I'm Kyle, and I'm your next software engineer</h1>
     </section>
     <section>
         <h2>About Me</h2>
@@ -43,10 +44,10 @@
            I'm open to all freelance and job opportunities, talking about the latest
            Magic: The Gathering set or Pokémon game, how Blink-182 is the greatest band of all time, and any/all funny meme(s).
         </p>
-        <form name="contact" netlify>
+        <form name="contact" method="POST" data-netlify="true">
             <section class="form-name-email">
                 <input type="text" name="name" id="name" placeholder="Name">
-                <input type="text" name="email" id="email" placeholder="Email">
+                <input type="email" name="email" id="email" placeholder="Email">
             </section>
             <textarea type="text" name="message" id="message" placeholder="Let's talk..." class="form-message"></textarea>
             <section class="submit-button-container">
